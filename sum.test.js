@@ -8,6 +8,6 @@ describe("Test Sum Function", () => {
 
   it("Adds 1 and 0", () => {
     let total = sum(1, 0);
-    expect(total).toBe(0);
+    expect(total).toBe(1);
   });
 });
